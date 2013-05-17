@@ -17,3 +17,16 @@ checkKia();
 console.log(person + " is going to go see the first car he has in mind which is " + carsToCheck[2] + ".");
 
 
+// Now for the wonderful boolean function to see if i qualify for the loan
+
+function checkForSale() {if (canBorrowCash === true){console.log (person + " is approved for the loan!");
+    return status === true;
+}else {
+    console.log(person + " not approved for the loan.");
+}
+    return status === false;
+}
+
+checkForSale();
+
+
