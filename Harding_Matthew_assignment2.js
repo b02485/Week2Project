@@ -29,4 +29,10 @@ function checkForSale() {if (canBorrowCash === true){console.log (person + " is 
 
 checkForSale();
 
+// My number property to see if I can get the car of my dreams :P
 
+function checkCash() { if (cash < 50000) {console.log(person + " doesn't have enough money to buy this car.");
+
+} else {if (cash > 50000) {console.log(person + " does have enough money to buy this car!")
+}}
+}
