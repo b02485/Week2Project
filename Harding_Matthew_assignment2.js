@@ -5,7 +5,15 @@
 // Function of this program is to see if someone qualifies for a car loan
 // My variables
 
-canBorrowMoney = true, money = 50000, nissanAltima = "Good Car", toyotaCamry = "Nice Car",
+canBorrowCash = true, money = 50000, nissanAltima = "Good Car", toyotaCamry = "Nice Car",
 kiaOptima = "Excelent Car", person = "Matt", personP = "Matt\'s",
-carsToCheck = [nissanAltima, toyotaCamry, kiaOptima]
+carsToCheck = [nissanAltima, toyotaCamry, kiaOptima];
+
+// Story of me buying the car, or the "Procedure".
+
+console.log(person + " wants to buy Kia Optima fully loaded if he can afford it.");
+howManyCars();
+checkKia();
+console.log(person + " is going to go see the first car he has in mind which is " + carsToCheck[2] + ".");
+
 
